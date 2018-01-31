@@ -18,6 +18,10 @@ a.link{
     /*background-color: rgba(243, 174, 64, 0.5);*/
 }
 
+@font-face {
+font-family: "Comfortaa";
+src: url("css/Comfortaa/Harabara.ttf");
+}
 
 
 
