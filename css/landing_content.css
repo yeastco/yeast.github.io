@@ -1,0 +1,190 @@
+.topic{
+  position: absolute;
+  top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+
+.topic a{
+  font-weight: 600;
+  color: #333;
+}
+
+#highlight{
+  /*color: rgba(251, 167, 36, 1);*/
+  color: #87c9c5;
+  /*background-color: rgba(243, 174, 64, 0.5);*/
+}
+
+#overlay{
+  position: absolute;
+    top: 10%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+#subline{
+  position: absolute;
+    top: 90%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+/* Section 0
+ * --------------------------------------- */
+#section0{
+  background-color: #FFF;
+
+}
+#section0 h1{
+  color: #000;
+  font-weight: 900;
+}
+#section0 p{
+  color: #333;
+  font-size: 14pt;
+  opacity: 0.7;
+}
+
+
+/* Section 1
+ * --------------------------------------- */
+#section1{
+  /*background-color: #EFF6F7;*/
+  background-color: #FFF;
+
+}
+#section1 h1{
+  color: #000;
+}
+#section1 p{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+/* Section 2
+ * --------------------------------------- */
+#section2{
+  background-color: #2C3E50;
+  overflow: hidden;
+}
+#section2 h2{
+  color: #FFF;
+
+}
+#section2 p{
+  color: #FFF;
+  font-size: 10pt;
+  opacity: 0.8;
+}
+#section2 #highlight{
+  color: rgba(251, 167, 36, 1);
+}
+
+
+#section2 #slide1{
+  background-image: url(img/masks.JPG);
+}
+#section2 #slide2{
+  background-image: url(img/addicted_products.JPG);
+}
+#section2 #slide3{
+  background-image: url(img/explore.jpg);
+}
+#section2 #slide4{
+
+  background-image: url(img/pop.JPG);
+}
+#section2 #slide5{
+  background-image: url(img/lars.png);
+}
+#section2 #slide6{
+  background-image: url(img/machine.jpg);
+}
+
+/* Section 3
+ * --------------------------------------- */
+#section3{
+  background-color: #2C3E50;
+  overflow: hidden;
+}
+#section3 h1{
+  color: #F2F2F2;
+}
+#section3 p{
+  color: #FFF;
+  font-size: 10pt;
+  opacity: 0.8;
+}
+
+#section3 a{
+  color: #87c9c5;
+}
+
+#section3 #highlight{
+  color: #87c9c5;
+}
+
+#section3 #slide1{
+  background-image: url(img/alitalia.jpg);
+}
+#section3 #slide2{
+  background-image: url(img/field.jpg);
+}
+#section3 #slide3{
+  background-image: url(img/wshop.jpg);
+}
+#section3 #slide4{
+  background-image: url(img/ixd.png);
+}
+#section3 #slide5{
+  background-image: url(img/proto.jpg);
+}
+#section3 #slide6{
+  background-image: url(img/cubicle.png);
+}
+#section3 #slide7{
+  background-image: url(img/teams.png);
+}
+
+/* Section 4
+ * --------------------------------------- */
+
+
+ #section4 h1{
+   color: #F2F2F2;
+ }
+
+ #section4 p{
+   color: #F2F2F2;
+ }
+
+ /* Section 5
+  * --------------------------------------- */
+
+  #section5 h1{
+    color: #F2F2F2;
+  }
+  #section5 p{
+    color: #F2F2F2;
+  }
+
+
+  /* Section 6
+   * --------------------------------------- */
+   #section6{
+     background-image: url(img/ansible.png);
+   }
+   #section6 h1{
+     color: #F2F2F2;
+   }
+   #section6 p{
+     color: #F2F2F2;
+   }

@@ -1,0 +1,248 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration:none;
+  /*font-weight: 300;*/
+  color: rgba(0,0,0,0.5);
+
+}
+
+a.link{
+    color: rgba(251, 167, 36, 1);
+    /*background-color: rgba(243, 174, 64, 0.5);*/
+}
+
+
+
+
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+  font-family: 'Comfortaa', sans-serif;
+	color: rgba(0,0,0,0.5);
+}
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 30pt;
+  font-weight: 700;
+}
+h2{
+	font-size: 15pt;
+  font-weight: 400;
+  /* color: white; */
+
+}
+h3{
+	font-size: 10pt;
+  font-weight: 300;
+  color: white;
+
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: rgba(0,0,0,0.5);
+	font-size: 15pt;
+  font-weight: 300;
+}
+
+img{
+  padding-bottom: 20px;
+}
+
+video{
+  z-index: -2000;
+}
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.section{
+	text-align:center;
+  background-size: cover;
+}
+
+.slide{
+  background-size: cover;
+}
+
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+
+#canvas{
+  position: absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+}
+
+#canvasM{
+  position: absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+}
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+
+}
+
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+  #myVideosmall{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		left:0;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: white; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+.text_container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text_slide{
+  position: relative;
+  top: 45%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.white{
+  color: rgba(255,255,255);
+}
+
+
+.fp-slidesNav.bottom{
+  bottom: 25px;
+}
