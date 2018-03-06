@@ -20,7 +20,7 @@
 
 #overlay{
   position: absolute;
-    top: 10%;
+    top: 30%;
     left: 51%;
     transform: translateX(-50%) translateY(-50%);
   z-index: 1000;
