@@ -14,7 +14,7 @@ a{
 }
 
 a.link{
-    color: rgba(251, 167, 36, 1);
+    color: #FFF;
     /*background-color: rgba(243, 174, 64, 0.5);*/
 }
 
@@ -59,6 +59,14 @@ q:before,q:after {
 }
 abbr,acronym { border: 0;
 }
+header{
+  position:fixed;
+  display:block;
+  top: 0;
+  left: 0;
+  z-index:3;
+  width: 100%;
+}
 
 
 /* Custom CSS
@@ -91,13 +99,13 @@ h3{
 }
 p{
   font-family: 'Lato', sans-serif;
-  color: rgba(0,0,0,0.5);
-	font-size: 15pt;
+  color: rgba(0,0,0);
+	font-size: 20pt;
   font-weight: 300;
 }
 
 img{
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 video{
