@@ -1,78 +1,141 @@
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Fermenting futures since 2017</title>
-	<link rel="stylesheet" type="text/css" href="css/folio.css" />
-	<link rel="stylesheet" type="text/css" href="css/landing_content.css" />
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-	<!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet"> -->
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,900" rel="stylesheet"> -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="js/folio.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				slidesNavigation: true,
-				//sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-			});
-		});
-	</script>
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>YEAST.</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Libraries
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Load the Paper.js library -->
+    <script type="text/javascript" src="libraries/paper-full.js"></script>
+
+    <script type="text/paperscript" src="js/yyyy.js" canvas="myCanvas"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,400,800" rel="stylesheet">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon_y.png">
 
 </head>
+
 <body>
-	<header>
-		<div id="logo">
-			<img src="assets/logo_w.png" style="width: 60px">
-			<!-- <p>YEAST</p> -->
-		</div>
-	</header>
-<div id="fullpage">
-	<div id="logo">
 
-	</div>
-
-	<div class="section active" id="section0">
-		<video id="myVideo" loop muted data-autoplay>
-			<!-- <source src="assets/yibuplay.mp4" type="video/mp4" /> -->
-			<source src="assets/yeast.webm" type="video/webm" />
-		</video>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="images/yeast.webm" type="video/webm">
+    </video>
+</div> -->
 
 
-		<div id="title">
+    <div class="container">
+        <div class="row">
+          <!-- <video loop muted autoplay poster="img/videoframe.jpg" class="u-max-full-width">
+              <source src="images/yeast.webm" type="video/webm">
+          </video> -->
+            <div class="one columns" style="margin-top: 5%">
+                <img class="u-max-full-width" src="images/logo_w.png">
+            </div>
+        </div>
 
-			<h1>future</br>ventures</br>laboratory.</h1>
-		</div>
-		<div id="subline">
-		<h2>Wuxing Road 256, House 6, Shanghai</br>吴兴路256弄6号</br><a href="mailto:hi@yeastlab.co?Subject=Hello%20Yeast">hi@yeastlab.co</a> </h2>
-		</div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top: 10%">
+                <h1><span class='title'>YEAST</span><span class='dot'>.</span > is a <span class='highlight-g'>future venture laboratory</span> where we imagine<span class='comma'>,</span > design<span class='comma'>,</span> build<span class='comma'>,</span > and run companies that improve living through <span class='highlight-o'>food and technology</span><span class='dot'>.</span ></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="one columns" style="margin-top: 10%">
+                <!-- <h6 ><span class='glyphs'> ????? </span > </h6> -->
+                <h1><span class='dot'> . </span > </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top:10%">
+                <h2 class='grey'>We are a team of <a target="_blank" class='green' href="https://www.linkedin.com/in/duartefederico/">chef + business designers</a><span class='comma'>,</span ><a target="_blank" class='orange' href="https://www.linkedin.com/in/ericwsun/"> investor + product strategists</a><span class='comma'>,</span ><a target="_blank" class='red' href="http://simonerebaudengo.com/"> futurist + interaction designers</a> <span class='dot'>.</span ></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top: 5%">
+                <h2 class='grey'>We are based in <a target="_blank" class='red' href='https://www.google.com/maps/place/256+Wu+Xing+Lu,+Xuhui+Qu,+Shanghai+Shi,+China,+200085/@31.2001132,121.4448932,19z/data=!4m5!3m4!1s0x35b2654ab8fca433:0x82c4873c4ec5b7e1!8m2!3d31.199987!4d121.444684'>Shanghai </a><img src="images/china.png" width="30"></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="one columns" style="margin-top: 10%">
+                <!-- <h6 ><span class='glyphs'> ##### </span > </h6> -->
+                <h1><span class='dot'> . </span > </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top: 10%">
+                <h2 class='grey'>We are working on <span class='highlight-g'> generative tools for the kitchen</span><span class='comma'>,</span > wastless deliveries <span class='comma'>,</span > and <span class='highlight-o'> food that you can play with</span><span class='dot'>.</span ></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top: 5%">
+                <h2 class='grey'>You can read more about our work on <a class='green' href="https://medium.com/yeastlab">Medium</a><span class='dot'>.</span ></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="one columns" style="margin-top: 10%">
+                <h1><span class='dot'> . </span > </h1>
+                <!-- <h6 ><span class='glyphs'> @@@@@ </span > </h6> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten columns offset-by-one" style="margin-top: 10%">
+                <h2 class='grey'>If you’re interested to collaborate in our experiments, partner or invest in a venture get in touch<span class='dot'>.</span ></h2>
+            </div>
+
+            <div class="row">
+                <div class="ten columns offset-by-one" style="margin-top: 1%">
+                    <form action="https://formspree.io/hi@yeastlab.co" method="POST">
+                        <input type="email" placeholder="your@email.com" name="_replyto">
+                        <textarea class="u-full-width" placeholder="Hello Yeast!" id="exampleMessage"></textarea>
+                        <input class="button-primary" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
-	</div>
-	<!-- <div class="section" id="section1">
-		<img src="assets/process_or.png" style="width: 40%;opacity: 0.7;">
-		<p>Yeast is a venture laboratory working at the intersection of <span id='highlight'>food, living, design and technology to build products and ventures. </span>
-	</div>
-	<div class="section" id="section2">
-		<img src="assets/logos_clients.png" style="width: 40%;opacity: 0.7;">
-		<p>We are a team of <span id='highlight'>researchers, futurists, food designers, strategist and prototypers </span>that have been consulting and building ventures for global clients </p>
 
+        <div class="row">
+            <div class="one columns " style="margin-top: 10%">
+                <img class="u-max-full-width" src="images/logo_w.png">
+            </div>
+            <!-- <div class="ten columns" style="margin-top: 16%">
 
-	</div>
+        <h6 class=''>Wuxing road 256, Shanghai, China <span class='dot'>.</span ></h6>
+      </div> -->
+        </div>
+        <div class="row">
+            <div class="two columns " style="margin-top: 1%">
+                <h6 class=''>hi@yeastlab.co</h6>
+                <h6 class=''>Wuxing road 256, Shanghai, China <span class='dot'>.</span ></h6>
+            </div>
+        </div>
+    </div>
 
-	<div class="section" id="section3">
-		<p>Yeast is base in <span id='highlight'> Shanghai.</span> </p>
-		<p> Come to visit our laboratory in 256 Wuning road (吴兴路256弄6号).
-		<h2>Or drop us a line on <a href="mailto:hi@yeastlab.co?Subject=Hello%20again">hi@yeastlab.co</a> </h2>
-
-	</div> -->
-
-
-
-</div>
-
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
