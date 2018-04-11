@@ -222,6 +222,9 @@ label {
 .highlight-o {
   background-image: linear-gradient(to left, rgba(255,163,0,0.2), rgba(255,163,0,0));
 }
+.highlight-r {
+  background-image: linear-gradient(to right, rgba(237,76,92,0.2), rgba(237,76,92,0));
+}
 .magenta{
   /* background-image: linear-gradient(to right, rgba(255,0,255,0.2), rgba(255,0,255,0)); */
   color: rgba(255, 0, 255, 0.5);
