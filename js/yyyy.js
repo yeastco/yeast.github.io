@@ -73,7 +73,7 @@ treeLine.prototype={
 
 	colShift: function(time){
 		var sinus = Math.sin(time * 3);
-		console.log(sinus);
+		//console.log(sinus);
     this.path.fillColor=new Color(0.8,0.5+sinus,0.3+sinus);
     //this.path.opacity=0.2;
 		//this.path.strokeColor = new Color(10+this.order,0.2+sinus,0);
